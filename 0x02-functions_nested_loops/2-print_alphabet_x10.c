@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the add of the fibonacci numbers
+ * main - prints the add of the fibonacci numbers.
  *
- * Return:always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
