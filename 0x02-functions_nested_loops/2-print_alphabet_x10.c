@@ -1,25 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the add of the fibonacci numbers
- *
- * Return: Always 0.
+ * print_alphabet_x10 - function that will print the alphabet 10 times
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	int c;
-	long int n1, n2, fn;
+	int line, ch;
 
-	n1 = 1;
-	n2 = 2;
-	printf("%ld, %ld", n1, n2);
-	for (c = 0; c < 48; c++)
+	for (line = 0; line <= 9; ++line)
 	{
-		fn = n1 + n2;
-		printf(", %ld", fn);
-		n1 = n2;
-		n2 = fn;
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
+		_putchar('\n');
 	}
-	printf("\n");
-	return (0);
 }
