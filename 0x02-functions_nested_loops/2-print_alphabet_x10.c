@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the add of the fibonacci numbers.
+ * main - prints the add of the fibonacci numbers
  *
  * Return: Always 0.
  */
